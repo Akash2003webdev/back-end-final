@@ -2,10 +2,10 @@ const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
 
-const authRoutes = require("./routes/authRoutes");
-const loanRoutes = require("./routes/loanRoutes");
-const applicantRoutes = require("./routes/applicantRoutes");
-const documentRoutes = require("./routes/documentRoutes");
+const authRoutes = require("./src/routes/authRoutes");
+const loanRoutes = require("./src/routes/loanRoutes");
+const applicantRoutes = require("./src/routes/applicantRoutes");
+const documentRoutes = require("./src/routes/documentRoutes");
 
 const app = express();
 app.use(cors());
